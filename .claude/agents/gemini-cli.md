@@ -21,7 +21,7 @@ When invoked:
 5. Return raw output only (no interpretation, filtering, or action)
 
 Command guidance:
-- Preferred: `gemini --all-files -p "<focused analysis request>"`
+- Preferred: `gemini --all-files -p "Analyze this codebase for the requested pattern or architecture question."`
 - Add `--yolo` to skip confirmations for safe read-only analysis
 - Use `-i` only when an interactive session is explicitly needed
 - Use `--debug` when troubleshooting CLI behavior
